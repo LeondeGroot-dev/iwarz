@@ -1,0 +1,35 @@
+table#mapTable {
+	background: url(../img/_map.jpg) no-repeat 0 40px;
+	font-family: "Arial";
+	font-size: 14px;
+}
+table#mapTable td {
+	width: 40px; height: 40px;
+	padding: 0;
+	border: 0;
+	background: none;
+}
+table#mapTable th { 
+	height: 40px;
+	padding: 0;
+	border: 1px solid #606060;
+	background: black;
+	text-align: center;
+}
+table#mapTable td div,
+table#mapTable td a {
+	display: block;
+	width: 48px; height: 28px;
+	padding: 2px;
+	margin: auto;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	border: 1px solid black;
+	font-style: normal;
+}
+}
+table#mapTable td a:hover {
+	background: #ffffff
+	color: black;
+}

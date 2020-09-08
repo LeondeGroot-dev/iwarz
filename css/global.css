@@ -1,0 +1,162 @@
+/*************
+** Elements **
+*************/
+
+html {
+	background: black;
+	padding: 0; margin: 0;
+}
+body {
+	margin: 10px;
+	background: black;
+	color: white;
+	font-family: "Georgia";
+	cursor: default;
+}
+a {
+	padding: 0px 5px 0px 5px;
+	color: white;
+	text-decoration: underline;
+}
+a:hover {
+	border: 1px solid #a0a0a0;
+	background: #606060;
+	text-decoration: none;
+}
+h1 {
+	background: url(../img/_h1.jpg);
+	padding: 5px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid black;
+	text-align: center;
+}
+h2 {
+	padding: 2px 10px 2px 10px;
+	margin: 15px 0px 15px 0px;
+	border: 1px solid #808080;
+	background: black;
+}
+h3 {
+	font-size: 1.3em;
+}
+input {
+	border: 1px solid #808080;
+	background: black;
+	color: white;
+}
+input:focus {
+	border: 1px solid white;
+}
+table {
+	text-align: left;
+}
+caption {
+	text-align: left;
+}
+td {
+	padding-right: 20px;
+	border: 1px solid #606060;
+	background: black;
+}
+th {
+	padding-right: 20px;
+	border: 1px solid #606060;
+	background: #283018;
+}
+ul {
+	list-style: none;
+}
+
+/************
+** Classes **
+************/
+
+.big {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.center {
+	text-align: center;
+}
+.gray {
+	color: gray;
+}
+.error {
+	padding-left: 20px;
+	padding-right: 5px;
+	border: 1px dotted #a00000;
+	background: url(../img/_warning.gif) no-repeat 5px 3px;
+}
+.popup {
+	border: 1px solid #800000;
+	color: #c03030;
+	cursor: help;
+	text-decoration: none;
+}
+div.leftColumn {
+	clear: left;
+	float: left;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+div.rightColumn {
+	clear: right;
+	float: right;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+div.rightColumn a {
+	display: block;
+	margin-bottom: 5px;
+}
+input.submitbutton {
+	padding: 5px;
+	background: #404040;
+	border: 0;
+}
+table.noBorderBackground th,
+table.noBorderBackground td {
+	border: none;
+	background: none;
+}
+ul.errorList {
+	list-style: none;
+	padding-left: 0; margin-left: 0;
+	background: #600000;
+}
+ul.errorList li {
+	padding-left: 20px;
+	border: 1px solid black;
+	background: url(../img/_warning.gif) no-repeat 5px 3px;
+}
+
+/********
+** IDs **
+********/
+
+div#Foot {
+	display: block;
+	clear: both;
+	margin-top: 10px;
+	padding: 2px;
+	border-top: 1px solid #606060;
+	text-align: right;
+	font-size: 0.6em;
+}
+div#Head {
+	height: 90px;
+	padding: 0;
+	margin: 0px 0px 10px 0px;
+	background: black;
+}
+div#Head a {
+	border: none;
+}
+div#Head a:hover {
+	background: none;
+}
+div#Main {
+	padding: 2px 10px 20px 10px;
+	background: url(../img/_main.jpg) repeat;
+	border: 1px solid #606060;
+}

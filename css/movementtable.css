@@ -1,0 +1,31 @@
+table#MovementTable {
+	height: 200px;
+	width: 200px;
+	display: inline;
+}
+table#MovementTable a, img {
+	padding: 0; margin: 0;
+	border: 0;
+}
+table#MovementTable a:hover {
+	background: none;
+}
+table#MovementTable a:hover img {	
+	background: white;
+}
+table#MovementTable td, th {
+	width: 65px;
+	height: 65px;
+	padding: 0;
+	border: 1px solid #a0a0a0;
+	background: black;
+	text-align: center;
+}
+td#MovementTableCenter * {
+	margin: 0;
+	padding: 0;
+}
+td#MovementTableCenter input {
+	width: 40px;
+	text-align: center;
+}
