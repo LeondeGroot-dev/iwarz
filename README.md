@@ -1,3 +1,4 @@
-# iwarz is nog lang niet af
-# Overzicht van dingen die mooier kunnen
-# - Bases hebben een userId en een team. Team is niet nodig, is ook af te lezen uit userId
+# iWarz is far from finished
+
+# Things that should be improved
+# - Bases have a userId and a team. Team is not necessary; it can be distracted from the user (userId)
