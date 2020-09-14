@@ -8,5 +8,3 @@ Things that should be improved
 
 Functionality that should be added
 - When your side is dominating an area, you can build bases there and get more resources
-
-## Test
