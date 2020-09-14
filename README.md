@@ -6,5 +6,5 @@ Things that should be improved
 - "Teams" should be "sides"
 
 Functionality that should be added
-- 'Attacking players' with tanks and/or airplanes should be written
+- Attacking players
 - When your side is dominating an area, you can build bases there and get more resources
