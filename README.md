@@ -1,4 +1,4 @@
-# iWarz is far from finished
+# iWarz work to do
 
 Things that should be improved
 - MySQL: Bases have a userId and a team. Team is not necessary; it can be read from the user (userId)
@@ -8,3 +8,5 @@ Things that should be improved
 
 Functionality that should be added
 - When your side is dominating an area, you can build bases there and get more resources
+
+## Test
